@@ -78,11 +78,11 @@ A deault questionnaire is there to serve as example.
 ### 3. Fill out the questionnaire
 
 Fill out your questionnaire. 
-Once the "next page 下一页" button is clicked, the questionnaire automatically checks for unfilled questions that should be answered, and automatically highlights and takes you to the first to-be-answered question.
+Once the "NEXT" button is clicked, the questionnaire automatically checks for unfilled questions that should be answered, and automatically highlights and takes you to the first to-be-answered question.
 
 ### 4. Get your data
 
-After you finished all the questions, an alert with the message "问卷完成!" will pop up. The answers you gave will be compiled in to a txt file that automatically downloads to your default download folder.
+After you finished all the questions, an alert with the message "Done!" will pop up. The answers you gave will be compiled in to a txt file that automatically downloads to your default download folder.
 
 ### 5. Rerun your questionnaire
 

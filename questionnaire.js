@@ -314,11 +314,11 @@ fetch('configure.json').then((response) => response.json()).then(
                 }
                 else if (currentPage == pages.length-1){
                     writeResult();
-                    alert("问卷完成！")
+                    alert("Done!")
                 }
             }
             else {
-                alert("还有问题没有填完");
+                alert("You did not answer all the questions.");
             }
         });
         
