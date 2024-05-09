@@ -1,0 +1,175 @@
+.MCS-5 {
+    /* background-color: rebeccapurple; */
+    padding: 10px 20px;
+    font-size: 1.3em;
+}
+.MCS-7 {
+    /* background-color: rebeccapurple; */
+    padding: 10px 20px;
+    font-size: 1.3em;
+}
+
+.FID {
+    /* background-color: rebeccapurple; */
+    padding: 10px 20px;
+    font-size: 1.3em;
+}
+
+.FT {
+    /* background-color: rebeccapurple; */
+    padding: 10px 20px;
+    font-size: 1.3em;
+}
+
+.FT input {
+    width: 8em;
+}
+
+.FIB {
+    /* background-color: rebeccapurple; */
+    padding: 10px 20px;
+    font-size: 1.3em;
+}
+
+.BTB {
+    /* background-color: rebeccapurple; */
+    padding: 10px 20px;
+    font-size: 1.3em;
+}
+
+.BTB textarea {
+    width: 100%;
+}
+
+.BTB .BTB-description {
+    font-size: 0.85em;
+    color: #505050;
+    padding: 5px;
+}
+
+.INS {
+    /* background-color: rebeccapurple; */
+    padding: 10px 20px;
+    font-size: 1.3em;
+    position: sticky;
+    top: 0;
+    background-color: #f1f1f1;
+}
+
+.question.unfilled {
+    background-color: gray;
+}
+.holder {
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    /* height: 37px; */
+}
+
+
+
+.holder-v {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    /* height: 37px; */
+}
+
+.holder p {
+    margin: 0;
+}
+
+
+.holder input {
+    border-color: none;
+}
+
+.entry-text {
+    margin-right: 5px;
+}
+
+.alert {
+    color: red;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    display: none;
+}
+
+.year {
+    width: 4em;
+}
+.month {
+    width: 2.5em;
+}
+.day {
+    width: 2.5em;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+.answer-holder {
+    /* background-color: green; */
+    /* height: 100px; */
+    display: flex;
+    flex-direction: row;
+}
+
+.answer-5 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: red; */
+    width: 20%;
+    padding: 5px;
+}
+
+.answer-7 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: red; */
+    width: 14.28%;
+    padding: 5px;
+}
+
+.text {
+    min-height: 30px;
+}
+
+.num {
+    height: 35px;
+}
+
+input[type="radio"] {
+    height: 20px;
+    width: 20px;
+    align-self: center;
+}
+
+
+.page-turner {
+    position: relative;
+}
+
+.button-holders {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.button-holders button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 0;
+    border-style: none;
+    background-color: rgb(35, 122, 245);
+    border-radius: 5px;
+    color: white;
+}

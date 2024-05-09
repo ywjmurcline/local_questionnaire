@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <link rel="stylesheet" href="bootstrap.min.css"> <!-- Twitter Bootstrap -->
+        <link rel="stylesheet" href="questionnaire.css">
+    </head>
+    
+    <body>
+        <div class="container">
+        </div>
+        <div class="container">
+            <div class="button-holders">
+                <button id="next" class="button"> 下一页 </button>
+            </div>
+        </div>
+
+    </body>
+    <script>
+        sessionStorage.clear();
+    </script>
+    <script>
+        
+        function finishFIB(id){
+            let input1 = document.getElementById(id+"_1").value;
+            console.log(input1);
+            sessionStorage.setItem(id, [input1]);
+        }
+        function finishBTB(id){
+            let input1 = document.getElementById(id+"_subject").value;
+            console.log(input1);
+            sessionStorage.setItem(id, [input1]);
+        }
+        function finishFID(id){
+            let input1 = document.getElementById(id+"_1").value;
+            let input2 = document.getElementById(id+"_2").value;
+            let input3 = document.getElementById(id+"_3").value;
+            console.log(input1, input2, input3);
+            sessionStorage.setItem(id, [input1+"."+input2+"."+input3]);
+        }
+        function finishFT(id){
+            let input1 = document.getElementById(id+"_1").value;
+            let input2 = document.getElementById(id+"_2").value;
+            console.log(input1, input2);
+            sessionStorage.setItem(id, [input1+"-"+ input2]);
+        }
+        function finishMCS5(id){
+            var ele = document.getElementsByName(id);
+            console.log(ele);
+            for (i = 0; i < ele.length; i++) {
+                if (ele[i].checked) {
+                    console.log(ele[i].value);
+                    sessionStorage.setItem(id, ele[i].value);
+                    console.log(id, sessionStorage.getItem(id));
+                }
+            }
+        }
+        function finishMCS7(id){
+            var ele = document.getElementsByName(id);
+            console.log(ele);
+            for (i = 0; i < ele.length; i++) {
+                if (ele[i].checked) {
+                    console.log(ele[i].value);
+                    sessionStorage.setItem(id, ele[i].value);
+                }
+            }
+        }
+    </script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script type="module" src="files.js"></script>
+    <script type="module" src="questionnaire.js"></script>
+    
+    <script>
+    </script>
+</html>

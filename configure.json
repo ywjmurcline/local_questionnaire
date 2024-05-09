@@ -1,0 +1,20 @@
+{
+    "questionaire": {
+        "page1": {
+            "questions": {
+                "instruction": ["INS", "Hello! Welcome to the questionnaire system."],
+                "fill_in_blank": ["FIB", "Name", "your name", "", "alert(does not support yet)", 1],
+                "fill_in_date": ["FID", "Date", "alert(does not support yet)", 1],
+                "from_to": ["FT", "Year 2024 is", "from", "to", 1]
+            }
+        },
+        "page2": {
+            "questions": {
+                "instruction": ["INS", "Some more question types"],
+                "multiple_5": ["MCS5", "multiple choice question with 5 answers", [1, 2, 3, 4, 5], ["A", "B", "C", "D", "E"]],
+                "multiple_7": ["MCS7", "multiple choice question with 7 answers", [1, 2, 3, 4, 5, 6, 7], ["", "", "", "", "", "", ""]],
+                "other": ["BTB", "A Huge Blank", "Write whatever you want", "this is a placeholder...", 0]
+            }
+        }
+    }
+}
